@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - Sanilio's</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="auth-page">
+
+        <!-- Hiasan kuning -->
+        <div class="yellow-shape"></div>
+
+
+        <!-- Brand -->
+        <div class="brand">
+            <span>Sanilio's</span>
+            <strong>MAKE IT EASY</strong>
+        </div>
+
+
+        <!-- Gambar -->
+        <div class="hero-image register-image">
+
+            <img
+                src="image/orang.png"
+                alt="Sanilio"
+            >
+
+        </div>
+
+
+        <!-- REGISTER -->
+        <div class="auth-content">
+
+            <h1>
+                Register <span>↪</span>
+            </h1>
+
+
+            <!-- Nama -->
+            <div class="input-group">
+
+                <label for="nama">
+                    Nama :
+                </label>
+
+                <input
+                    type="text"
+                    id="nama"
+                >
+
+            </div>
+
+
+            <!-- Nama Toko -->
+            <div class="input-group">
+
+                <label for="toko">
+                    Nama Toko :
+                </label>
+
+                <input
+                    type="text"
+                    id="toko"
+                >
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="input-group">
+
+                <label for="email">
+                    Email :
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                >
+
+            </div>
+
+
+            <!-- Password -->
+            <div class="input-group">
+
+                <label for="password">
+                    Kata Sandi :
+                </label>
+
+                <div class="password-wrapper">
+
+                    <input
+                        type="password"
+                        id="password"
+                    >
+
+                    <button
+                        type="button"
+                        class="toggle-password"
+                        onclick="togglePassword('password', this)"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Konfirmasi Password -->
+            <div class="input-group">
+
+                <label for="confirmPassword">
+                    Konfirmasi :
+                </label>
+
+                <div class="password-wrapper">
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                    >
+
+                    <button
+                        type="button"
+                        class="toggle-password"
+                        onclick="togglePassword('confirmPassword', this)"
+                    >
+                        👁
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Register -->
+            <button
+                type="button"
+                class="main-button register-button"
+                onclick="register()"
+            > 
+                Register
+            </button>
+
+
+            <!-- Kembali Login -->
+            <p class="switch-text">
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
