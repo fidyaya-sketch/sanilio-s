@@ -26,16 +26,11 @@ body {
 
 .auth-page {
     position: relative;
-
     width: 100%;
     min-height: 100vh;
-
     margin: auto;
-
     padding: 35px 33px 30px;
-
     overflow: hidden;
-
     background: #ffffff;
 }
 
@@ -46,17 +41,12 @@ body {
 
 .yellow-shape {
     position: absolute;
-
     top: 0;
     left: 0;
-
     width: 170px;
     height: 110px;
-
     background: #ffb52e;
-
     border-bottom-right-radius: 90px;
-
     z-index: 0;
 }
 
@@ -67,37 +57,25 @@ body {
 
 .brand {
     position: relative;
-
     z-index: 2;
-
     display: flex;
-
     align-items: center;
-
     justify-content: flex-start;
-
     gap: 6px;
-
     margin-top: 15px;
-
     padding-left: 4px;
 }
 
 .brand span {
     color: #5700bd;
-
     font-size: 24px;
-
     font-weight: 500;
 }
 
 .brand strong {
     color: #5700bd;
-
     font-size: 32px;
-
     font-weight: 900;
-
     margin-left: 23px;
 }
 
@@ -108,17 +86,14 @@ body {
 
 .hero-image {
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     margin-top: 12px;
 }
 
 .hero-image img {
     width: 155px;
     height: 155px;
-
     object-fit: contain;
 }
 
@@ -150,13 +125,9 @@ body {
 
 .auth-content h1 {
     text-align: center;
-
     font-size: 26px;
-
     font-weight: 700;
-
     color: #000000;
-
     margin-bottom: 3px;
 }
 
@@ -171,11 +142,8 @@ body {
 
 .subtitle {
     text-align: center;
-
     font-size: 12px;
-
     color: #000000;
-
     margin-bottom: 24px;
 }
 
@@ -190,39 +158,26 @@ body {
 
 .input-group label {
     display: block;
-
     font-size: 11px;
-
     color: #000000;
-
     margin-bottom: 5px;
 }
 
 .input-group input {
     width: 100%;
-
     height: 40px;
-
     border: 2px solid #6200c9;
-
     border-radius: 14px;
-
     outline: none;
-
     padding: 0 13px;
-
     font-family: 'Poppins', sans-serif;
-
     font-size: 13px;
-
     background: #ffffff;
 }
 
 .input-group input:focus {
     border-color: #40008c;
-
-    box-shadow:
-        0 0 0 3px rgba(98, 0, 201, 0.10);
+    box-shadow: 0 0 0 3px rgba(98, 0, 201, 0.10);
 }
 
 
@@ -232,7 +187,6 @@ body {
 
 .password-wrapper {
     position: relative;
-
     width: 100%;
 }
 
@@ -242,20 +196,13 @@ body {
 
 .toggle-password {
     position: absolute;
-
     right: 12px;
     top: 50%;
-
     transform: translateY(-50%);
-
     border: none;
-
     background: transparent;
-
     cursor: pointer;
-
     font-size: 18px;
-
     padding: 0;
 }
 
@@ -266,17 +213,11 @@ body {
 
 .forgot-password {
     display: block;
-
     margin-top: -3px;
-
     margin-bottom: 12px;
-
     padding-left: 8px;
-
     font-size: 10px;
-
     color: #5700bd;
-
     text-decoration: underline;
 }
 
@@ -287,23 +228,14 @@ body {
 
 .main-button {
     width: 100%;
-
     height: 40px;
-
     border: none;
-
     border-radius: 25px;
-
     background: #6200c9;
-
     color: #ffffff;
-
     font-family: 'Poppins', sans-serif;
-
     font-size: 13px;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
@@ -322,19 +254,14 @@ body {
 
 .switch-text {
     text-align: center;
-
     font-size: 9px;
-
     margin-top: 6px;
-
     color: #000000;
 }
 
 .switch-text a {
     color: #5700bd;
-
     font-weight: 600;
-
     text-decoration: underline;
 }
 
@@ -353,25 +280,19 @@ body {
 ================================================= */
 
 @media (min-width: 600px) and (max-width: 768px) {
-
     .auth-page {
         width: 500px;
-
         margin: auto;
-
         padding-left: 50px;
         padding-right: 50px;
     }
-
     .brand {
         justify-content: center;
     }
-
     .hero-image img {
         width: 180px;
         height: 180px;
     }
-
     .register-image img {
         width: 170px;
         height: 170px;
@@ -384,243 +305,152 @@ body {
 ================================================= */
 
 @media (min-width: 769px) {
-
     body {
         min-height: 100vh;
-
         background: #f7f7f7;
     }
-
-
     /* Halaman menjadi 2 kolom */
-
     .auth-page {
         position: relative;
-
         width: 100%;
         min-height: 100vh;
-
         margin: 0;
-
         padding: 80px 8%;
-
         display: grid;
-
         grid-template-columns: 1fr 1fr;
-
         align-items: center;
-
         gap: 60px;
-
         background: #ffffff;
-
         overflow: hidden;
     }
-
-
     /* =========================
        KUNING DESKTOP
     ========================= */
-
     .yellow-shape {
         width: 300px;
         height: 190px;
-
         border-bottom-right-radius: 150px;
     }
-
-
     /* =========================
        BRAND DESKTOP
     ========================= */
-
     .brand {
         position: absolute;
-
         top: 35px;
         left: 8%;
-
         margin-top: 0;
-
         padding-left: 0;
     }
-
     .brand span {
         font-size: 30px;
     }
-
     .brand strong {
         font-size: 38px;
-
         margin-left: 25px;
     }
-
-
     /* =========================
        GAMBAR DESKTOP
     ========================= */
-
     .hero-image {
         grid-column: 1;
-
         grid-row: 1;
-
         width: 100%;
-
         margin-top: 70px;
-
         display: flex;
-
         justify-content: center;
         align-items: center;
     }
-
     .hero-image img {
         width: min(35vw, 400px);
-
         height: min(35vw, 400px);
-
         object-fit: contain;
     }
-
-
     /* Register image */
-
     .register-image {
         margin-top: 30px;
     }
-
     .register-image img {
         width: min(32vw, 360px);
-
         height: min(32vw, 360px);
     }
-
-
     /* =========================
        FORM DESKTOP
     ========================= */
-
     .auth-content {
         grid-column: 2;
-
         grid-row: 1;
-
         width: 100%;
-
         max-width: 480px;
-
         justify-self: center;
-
         align-self: center;
     }
-
-
     /* =========================
        JUDUL
     ========================= */
-
     .auth-content h1 {
         text-align: left;
-
         font-size: 34px;
-
         margin-bottom: 6px;
     }
-
     .auth-content h1 span {
         font-size: 36px;
     }
-
-
     /* =========================
        SUBTITLE
     ========================= */
-
     .subtitle {
         text-align: left;
-
         font-size: 14px;
-
         margin-bottom: 28px;
     }
-
-
     /* =========================
        INPUT DESKTOP
     ========================= */
-
     .input-group {
         margin-bottom: 18px;
     }
-
     .input-group label {
         font-size: 13px;
-
         margin-bottom: 7px;
     }
-
     .input-group input {
         height: 50px;
-
         border-radius: 15px;
-
         padding: 0 16px;
-
         font-size: 14px;
     }
-
-
     /* =========================
        PASSWORD DESKTOP
     ========================= */
-
     .toggle-password {
         right: 15px;
-
         font-size: 20px;
     }
-
-
     /* =========================
        LUPA PASSWORD
     ========================= */
-
     .forgot-password {
         font-size: 11px;
-
         margin-bottom: 18px;
-
         padding-left: 5px;
     }
-
-
     /* =========================
        BUTTON DESKTOP
     ========================= */
-
     .main-button {
         height: 50px;
-
         font-size: 15px;
     }
-
-
     /* =========================
        DAFTAR / LOGIN
     ========================= */
-
     .switch-text {
         font-size: 11px;
-
         margin-top: 10px;
     }
-
-
     /* =========================
        REGISTER BUTTON
     ========================= */
-
     .register-button {
         margin-top: 30px;
     }
@@ -632,36 +462,28 @@ body {
 ================================================= */
 
 @media (min-width: 1200px) {
-
     .auth-page {
         padding-left: 12%;
         padding-right: 12%;
-
         gap: 100px;
     }
-
     .brand {
         left: 12%;
     }
-
     .hero-image img {
         width: 420px;
         height: 420px;
     }
-
     .register-image img {
         width: 380px;
         height: 380px;
     }
-
     .auth-content {
         max-width: 500px;
     }
-
     .auth-content h1 {
         font-size: 38px;
     }
-
     .auth-content h1 span {
         font-size: 40px;
     }
@@ -673,52 +495,209 @@ body {
 ================================================= */
 
 @media (max-width: 400px) {
-
     .auth-page {
         padding-left: 25px;
-
         padding-right: 25px;
     }
-
-
     .brand strong {
         font-size: 18px;
     }
-
     .brand span {
         font-size: 14px;
     }
-
-
     .hero-image img {
         width: 140px;
-
         height: 140px;
     }
-
-
     .register-image img {
         width: 135px;
-
         height: 135px;
     }
-
-
     .auth-content h1 {
         font-size: 24px;
     }
-
     .auth-content h1 span {
         font-size: 26px;
     }
-
-
     .input-group input {
         height: 38px;
     }
-
-
     .main-button {
         height: 38px;
+    }
+}
+
+
+/* =========================================
+   DASHBOARD
+========================================= */
+
+.dashboard-header {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* LOGO */
+
+
+/* LOGO */
+
+.dashboard-logo {
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+.dashboard-logo img {
+    width: 133px;
+    height: 133px;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* JUDUL */
+
+.dashboard-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+/* BUTTON KARYAWAN */
+
+.employee-btn {
+    margin-left: auto;
+    border: none;
+    background: #5b00d6;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.dashboard-main {
+    min-height: calc(100vh - 76px);
+    position: relative;
+    background: #ffffff;
+}
+
+
+/* CONTENT */
+
+.dashboard-content {
+    width: 100%;
+    min-height: 100%;
+    padding: 30px;
+}
+
+
+/* AI CONTAINER */
+
+.ai-container {
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* AI */
+
+.ai-label {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #5b00d6;
+    color: white;
+    font-size: 8px;
+    font-weight: 500;
+}
+
+
+/* PLUS */
+
+.add-button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #5b00d6;
+    color: white;
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.add-button:hover {
+    background: #4700a8;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media screen and (max-width: 768px) {
+    .dashboard-header {
+        height: 60px;
+        padding: 0 15px;
+    }
+    .dashboard-logo {
+        width: auto;
+    }
+    .dashboard-logo span {
+        font-size: 14px;
+    }
+    .dashboard-title {
+        font-size: 12px;
+    }
+    .employee-btn {
+        font-size: 8px;
+        padding: 6px 12px;
+    }
+    .dashboard-main {
+        min-height: calc(100vh - 60px);
+    }
+    .dashboard-content {
+        padding: 15px;
+    }
+    .ai-container {
+        right: 15px;
+        bottom: 15px;
+    }
+    .ai-label {
+        width: 22px;
+        height: 22px;
+        font-size: 7px;
+    }
+    .add-button {
+        width: 42px;
+        height: 42px;
+        font-size: 24px;
     }
 }
