@@ -52,12 +52,8 @@ function login() {
 
     }
 
-
     alert("Login berhasil!");
-
-    // Nanti setelah PHP + database:
-    // window.location.href = "dashboard.php";
-
+    window.location.href = "dashboard.html";
 }
 
 
@@ -112,4 +108,8 @@ function register() {
     // Nanti setelah PHP:
     // window.location.href = "login.html";
 
+}
+
+function goToTambahStok() {
+    window.location.href = "tambah-stok.html";
 }
