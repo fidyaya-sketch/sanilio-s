@@ -10,16 +10,24 @@ function togglePassword(inputId, button) {
 
         input.type = "text";
 
-        button.textContent = "🙈";
+        button.classList.add("show");
+
+        button.setAttribute(
+            "aria-label",
+            "Sembunyikan password"
+        );
 
     } else {
 
         input.type = "password";
 
-        button.textContent = "👁";
+        button.classList.remove("show");
 
+        button.setAttribute(
+            "aria-label",
+            "Tampilkan password"
+        );
     }
-
 }
 
 

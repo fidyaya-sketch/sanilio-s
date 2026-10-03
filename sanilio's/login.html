@@ -37,12 +37,13 @@
 
         <!-- LOGIN -->
         <div class="auth-content">
-
-            <h1>
-                Login <span>↪</span>
+            
+            <h1 style="text-align: center;">
+                Login <span><img src="image/login.png" alt="Sanilio" style=" width: 30px;
+    height: auto;"></span>
             </h1>
 
-            <p class="subtitle">
+            <p class="subtitle" style="text-align: center;">
                 Masukan Nama & Kata Sandi
             </p>
 
@@ -75,13 +76,32 @@
                         id="loginPassword"
                     >
 
-                    <button
+                    <!-- <button
                         type="button"
                         class="toggle-password"
                         onclick="togglePassword('loginPassword', this)"
                     >
                         👁
-                    </button>
+                    </button> -->
+                    <button
+    type="button"
+    class="toggle-password"
+    onclick="togglePassword('loginPassword', this)"
+    aria-label="Tampilkan password"
+>
+    <!-- Mata tertutup -->
+    <svg class="eye-closed" viewBox="0 0 24 24">
+        <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"></path>
+        <path d="M9.5 9.5a3 3 0 0 0 4.2 4.2"></path>
+        <path d="M3 3l18 18"></path>
+    </svg>
+
+    <!-- Mata terbuka -->
+    <svg class="eye-open" viewBox="0 0 24 24">
+        <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"></path>
+        <circle cx="12" cy="12" r="3"></circle>
+    </svg>
+</button>
 
                 </div>
 
